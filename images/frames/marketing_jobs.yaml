@@ -1,6 +1,6 @@
 defaults:
   default_color: '#ffffffe6'
-  font: "Google Sans, Google Sans Flex"
+  font: Google Sans Flex
   color: center
   tolerance: 80
   zero_alpha_threshold: 50
@@ -21,7 +21,7 @@ jobs:
     output: output/night_and_day.png
     screenshot: PlayerNumberScreenshotLacOkc_Pixel_9_Night_.*_0\.png
   - name: search_game
-    text: Search for the   <color="#7051B3">game</color> you're at.
+    text: Search for the <br> <color="#7051B3">game</color> you're at.
     device_width_ratio: 0.78
     device_frame: frame.webp
     output: output/search_game.png
